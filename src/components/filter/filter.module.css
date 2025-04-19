@@ -1,0 +1,28 @@
+.filterContainer {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #0d3b66;
+    background-color: white;
+    color: #0d3b66;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0d3b66;
+    color: white;
+  }
+  
+  .active {
+    background-color: #0d3b66;
+    color: white;
+  }
+  
